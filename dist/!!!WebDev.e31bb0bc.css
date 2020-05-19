@@ -1,0 +1,33 @@
+.page {
+  margin: 0;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  float: right;
+}
+
+.header__cell {
+  width: 1440px;
+  height: 70px;
+  margin: 0 140px;
+  padding: 0 10px;
+}
+
+.header__logo {
+  position: absolute;
+  width: 105.69px;
+  height: 40px;
+  float: left;
+}
+
+.link {
+  color: rgba(31, 32, 65, 0.75);
+  text-decoration: none;
+  width: 527px;
+  height: 21px;
+}
+
+/*# sourceMappingURL=/!!!WebDev.e31bb0bc.css.map */
