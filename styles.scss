@@ -1,5 +1,6 @@
-.page {
-    margin: 0;    
-}
+@import 'templates/reset';
+@import 'templates/fonts';
+@import 'templates/variables';
+@import 'modules/Colors_and_Types';
 
-@import 'module/header';
+

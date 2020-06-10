@@ -1,0 +1,27 @@
+div.icon-block
+    div.icon
+div.content
+    div.color
+        mixin color_item(background_color,name,hex)
+            div.color__item
+                div(class= 'color__item__square '+ background_color)
+                div.color__item__description= name
+                    p.hex__name= hex
+
+        +color_item('background1','Dark Shade 100%','#1F2041')
+        +color_item('background2','Dark Shade 75%','#1F2041')
+        +color_item('background3','Dark Shade 50%','#1F2041')
+        +color_item('background4','Dark Shade 25%','#1F2041')
+        +color_item('background5','Dark Shade 5%','#1F2041')
+        +color_item('background6','Purple','#BC9CFF')
+        +color_item('background7','Green','#6FCF97')
+    div.type
+        mixin type_item(box,name,square_class,description_class)
+            div.type__item
+                div(class= 'type__item__square '+ square_class)= box
+                div(class= 'type__item__description '+ description_class)= name
+        
+        +type_item('H1','This one is the sub-section or widget title','first','first_name')
+        +type_item('H2','Next one is the item title inside widgets','second','second_name')
+        +type_item('H3','This is a label or CTA text','third','third_name')
+        +type_item('Body','This is the body text which is used for most of the design, like paragraphs, lists, etc.','fourth','fourth_name')

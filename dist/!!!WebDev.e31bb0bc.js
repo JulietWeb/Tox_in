@@ -189,7 +189,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"C:/Users/user/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"index.js":[function(require,module,exports) {
+},{"./templates\\fonts\\Quicksand-Bold.woff":[["Quicksand-Bold.86cf2a87.woff","templates/fonts/Quicksand-Bold.woff"],"templates/fonts/Quicksand-Bold.woff"],"./templates\\fonts\\Quicksand-Bold.svg":[["Quicksand-Bold.0b0a75aa.svg","templates/fonts/Quicksand-Bold.svg"],"templates/fonts/Quicksand-Bold.svg"],"./templates\\fonts\\Quicksand-Bold.ttf":[["Quicksand-Bold.f45cc64f.ttf","templates/fonts/Quicksand-Bold.ttf"],"templates/fonts/Quicksand-Bold.ttf"],"./templates\\fonts\\Quicksand-Regular.woff":[["Quicksand-Regular.aa2b0e81.woff","templates/fonts/Quicksand-Regular.woff"],"templates/fonts/Quicksand-Regular.woff"],"./templates\\fonts\\Quicksand-Regular.svg":[["Quicksand-Regular.200edd38.svg","templates/fonts/Quicksand-Regular.svg"],"templates/fonts/Quicksand-Regular.svg"],"./templates\\fonts\\Quicksand-Regular.ttf":[["Quicksand-Regular.8b6faa4e.ttf","templates/fonts/Quicksand-Regular.ttf"],"templates/fonts/Quicksand-Regular.ttf"],"./templates\\fonts\\Montserrat-Bold.woff":[["Montserrat-Bold.ad3246f1.woff","templates/fonts/Montserrat-Bold.woff"],"templates/fonts/Montserrat-Bold.woff"],"./templates\\fonts\\Montserrat-Bold.svg":[["Montserrat-Bold.3d216c94.svg","templates/fonts/Montserrat-Bold.svg"],"templates/fonts/Montserrat-Bold.svg"],"./templates\\fonts\\Montserrat-Bold.ttf":[["Montserrat-Bold.5c612957.ttf","templates/fonts/Montserrat-Bold.ttf"],"templates/fonts/Montserrat-Bold.ttf"],"./templates\\fonts\\Montserrat-Regular.woff":[["Montserrat-Regular.37ea6f16.woff","templates/fonts/Montserrat-Regular.woff"],"templates/fonts/Montserrat-Regular.woff"],"./templates\\fonts\\Montserrat-Regular.svg":[["Montserrat-Regular.10ff9d99.svg","templates/fonts/Montserrat-Regular.svg"],"templates/fonts/Montserrat-Regular.svg"],"./templates\\fonts\\Montserrat-Regular.ttf":[["Montserrat-Regular.0f8e702c.ttf","templates/fonts/Montserrat-Regular.ttf"],"templates/fonts/Montserrat-Regular.ttf"],"./media\\Group.svg":[["Group.44333ca4.svg","media/Group.svg"],"media/Group.svg"],"_css_loader":"C:/Users/user/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"index.js":[function(require,module,exports) {
 "use strict";
 
 require("./styles.scss");
@@ -223,7 +223,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58472" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58513" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

@@ -1,0 +1,35 @@
+header.header
+  div.icon
+    img.icon__img(src="media/Group.svg", alt="")
+  div.header__row
+    div.header__cell
+      div.header__logo
+        img.header__logo__img(src="media/Logo.svg", alt="")
+      nav.navigation              
+        mixin menu__item(name, href)
+          li.menu__item
+            a.link(href=href)= name
+        ul.menu
+            +menu__item('Home', '#') 
+            +menu__item('About Us', '#')
+            +menu__item('Services', '#')
+            +menu__item('Careers', '#')
+            +menu__item('News', '#')
+            +menu__item('Documentation', '#')
+      button.header__btn
+        div.header__btn__login login
+      button.header__btn
+        div.header__btn__register register
+  div.header__row
+    div.header__cell
+      div.header__logo
+        img.header__logo__img(src="media/Logo.svg", alt="")
+      nav.navigation
+        ul.menu
+            +menu__item('Home', '#') 
+            +menu__item('About Us', '#')
+            +menu__item('Services', '#')
+            +menu__item('Careers', '#')
+            +menu__item('News', '#')
+            +menu__item('Documentation', '#')
+      div.header___user Cosmin Negoita

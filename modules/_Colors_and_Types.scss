@@ -1,0 +1,123 @@
+.icon-block {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.icon {
+    width: 48px;
+    height: 48px;
+    background-image: url('media/Group.svg');
+}
+.content {
+    width: 1108px;
+    height: 610px;
+    margin: auto;
+    margin-top: 67px;
+    display: flex;
+    justify-content: space-between;
+}
+.color {
+    width: 270px;
+}
+.type {
+    width: 403px;
+}
+.color__item {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.color__item__square {
+    width: 70px;
+    border-radius: 6px;
+    }
+.background1 {
+    background: $Dark-100;
+}
+.background2 {
+    background: $Dark-75;
+}
+.background3 {
+    background: $Dark-50;
+}
+.background4 {
+    background: $Dark-25;
+
+}
+.background5 {
+    background: $Dark-5;
+}
+.background6 {
+    background: $Purple;
+}
+.background7 {
+    background: $Green;
+}
+.color__item__description {
+    width: 159px;
+    font: 118.75% $font-stack-Quicksand;
+    text-align: left;
+    font-weight: bold;
+    line-height: 29px;
+    }
+.hex__name {
+    font-weight: normal;
+}
+.type__item {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.type__item__square {
+    color: $Dark-25;
+    text-align: right;
+    max-width: 37px;
+    
+}
+.type__item__description {
+    max-width: 336px;
+    text-align: start;
+    
+}
+.first{
+    
+    font: 150% $font-stack-Montserrat;
+}
+.second{
+    
+    font: 118.75% $font-stack-Montserrat;
+}
+.third {
+    
+    font: 75% $font-stack-Montserrat;
+    text-transform: uppercase;
+}
+.fourth {
+    
+    font: 87.5% $font-stack-Montserrat;
+}
+.first_name {
+    color: $Dark-100;
+    font: 150% $font-stack-Quicksand;
+    font-weight: bold;
+    
+}
+.second_name {
+    color: $Dark-100;
+    font: 118.75% $font-stack-Quicksand;
+    font-weight: bold;
+    
+}
+.third_name {
+    color: $Dark-100;
+    font: 75% $font-stack-Montserrat;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+
+}
+.fourth_name {
+    color: $Dark-75;
+    font: 87.5% $font-stack-Montserrat;
+    
+}
