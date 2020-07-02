@@ -1,0 +1,11 @@
+.btn {
+    border: 2px solid #BC9CFF;
+    border-radius: 22px;
+    color: $Purple;
+    text-transform: uppercase;
+    font-family: $font-stack-Montserrat;
+    font-weight: bold;
+    font-size: 12px;
+}
+@import '_button-empty/button-empty';
+@import '_button-full/button-full';

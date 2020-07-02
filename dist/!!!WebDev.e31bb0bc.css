@@ -326,7 +326,6 @@ table {
 }
 
 html,
-button,
 input,
 select,
 textarea {
@@ -396,142 +395,19 @@ textarea {
   src: url("/Montserrat-Regular.10ff9d99.svg") format("svg");
   src: url("/Montserrat-Regular.0f8e702c.ttf") format("truetype");
 }
-.icon-block {
-  margin-top: 30px;
-  margin-left: 30px;
-}
-
-.icon {
-  width: 48px;
-  height: 48px;
-  background-image: url("/Group.44333ca4.svg");
-}
-
-.content {
-  width: 1108px;
-  height: 610px;
+.header__row {
+  box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+  max-width: 1440px;
   margin: auto;
-  margin-top: 67px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.color {
-  width: 270px;
-}
-
-.type {
-  width: 403px;
-}
-
-.color__item {
   height: 70px;
+}
+
+.header__cell {
+  width: 1160px;
+  margin: auto;
+  padding: 15px 0;
   display: flex;
   justify-content: space-between;
-  padding-bottom: 20px;
-}
-
-.color__item__square {
-  width: 70px;
-  border-radius: 6px;
-}
-
-.background1 {
-  background: #1F2041;
-}
-
-.background2 {
-  background: rgba(31, 32, 65, 0.75);
-}
-
-.background3 {
-  background: rgba(31, 32, 65, 0.5);
-}
-
-.background4 {
-  background: rgba(31, 32, 65, 0.25);
-}
-
-.background5 {
-  background: rgba(31, 32, 65, 0.05);
-}
-
-.background6 {
-  background: #BC9CFF;
-}
-
-.background7 {
-  background: #6FCF97;
-}
-
-.color__item__description {
-  width: 159px;
-  font: 118.75% Quicksand, sans-serif;
-  text-align: left;
-  font-weight: bold;
-  line-height: 29px;
-}
-
-.hex__name {
-  font-weight: normal;
-}
-
-.type__item {
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: 50px;
-}
-
-.type__item__square {
-  color: rgba(31, 32, 65, 0.25);
-  text-align: right;
-  max-width: 37px;
-}
-
-.type__item__description {
-  max-width: 336px;
-  text-align: start;
-}
-
-.first {
-  font: 150% Montserrat, sans-serif;
-}
-
-.second {
-  font: 118.75% Montserrat, sans-serif;
-}
-
-.third {
-  font: 75% Montserrat, sans-serif;
-  text-transform: uppercase;
-}
-
-.fourth {
-  font: 87.5% Montserrat, sans-serif;
-}
-
-.first_name {
-  color: #1F2041;
-  font: 150% Quicksand, sans-serif;
-  font-weight: bold;
-}
-
-.second_name {
-  color: #1F2041;
-  font: 118.75% Quicksand, sans-serif;
-  font-weight: bold;
-}
-
-.third_name {
-  color: #1F2041;
-  font: 75% Montserrat, sans-serif;
-  font-weight: bold;
-  text-transform: uppercase;
-}
-
-.fourth_name {
-  color: rgba(31, 32, 65, 0.75);
-  font: 87.5% Montserrat, sans-serif;
 }
 
 /*# sourceMappingURL=/!!!WebDev.e31bb0bc.css.map */
