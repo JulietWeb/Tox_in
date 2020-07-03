@@ -1,0 +1,10 @@
+mixin menu__item(name, href)
+  li.menu__item
+    a.link(href=href)= name
+ul.menu
+
+  +menu__item('О нас', '#') 
+  +menu__item('Услуги', '#')
+  +menu__item('Вакансии', '#')
+  +menu__item('Новости', '#')
+  +menu__item('Соглашения', '#')

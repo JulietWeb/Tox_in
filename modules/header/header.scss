@@ -11,5 +11,9 @@
     display: flex;
     justify-content: space-between;
 }
-
+.header__bar {
+    display: flex;
+    justify-content: space-between;
+}
+@import '__menu/header__menu'
 

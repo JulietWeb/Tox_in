@@ -1,15 +1,15 @@
 .menu {
-    width: 32.9375rem;
-    padding: 0;
+    list-style-type: none;
+    width: 447px;
     margin: auto;
     display: flex;
     justify-content: space-between;
-      
+}
+.menu__item {
+    font-family: $font-stack-Montserrat;
+    font-size: 14px;
 }
 .link {
     text-decoration: none;
     color: $Dark-50;
-    font-family: $font-stack-Montserrat;
-    font-size: 14px;
 }
-
